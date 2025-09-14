@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LearnPassword</string>
+    <string name="action_login">Đăng nhập</string>
+    <string name="hint_enter_email">Nhập email</string>
+    <string name="hint_enter_password">Nhập mật khẩu</string>
+    <string name="action_register">Đăng ký</string>
+    <string name="label_user_info">Thông tin người dùng:</string>
+    <string name="message_login_failed">Đăng nhập thất bại! Sai email hoặc mật khẩu.</string>
+    <string name="message_login_success">Đăng nhập thành công.\nTài khoản: %s</string>
+    <string name="message_register_success">"Đăng ký thành công!\nTài khoản: %s</string>
+</resources>
