@@ -1,7 +1,7 @@
 package com.example.learnpassword01
 
 import android.os.Bundle
-import android.text.method.PasswordTransformationMethod
+
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         buttonRegister = findViewById(R.id.btn_register)
         editEmail = findViewById(R.id.edit_email)
         editPassword = findViewById(R.id.edit_password)
-        editPassword.transformationMethod = PasswordTransformationMethod()
+        editPassword.transformationMethod = PasswordMaskTransformation()
         buttonLogin.setOnClickListener(this)
         buttonRegister.setOnClickListener(this)
     }
