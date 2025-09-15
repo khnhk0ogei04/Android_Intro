@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FirstAndroidApp</string>
+    <string name="greeting_message">Hello</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="text_view">TextView</string>
+    <string name="text_full_name">FullName:</string>
+    <string name="text_address">Address:</string>
+    <string name="title_learn_edittext">EditText Example</string>
+    <string name="hint_full_name">Ví dụ: Nguyễn Văn A</string>
+    <string name="hint_address">Ví dụ: Hà Nội</string>
+    <string name="btn_text_register">Register</string>
+</resources>

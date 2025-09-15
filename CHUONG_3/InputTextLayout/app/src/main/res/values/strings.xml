@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LearnTextInputLayout</string>
+    <string name="email_hint">Email</string>
+    <string name="login_title">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="action_login">LOGIN</string>
+</resources>
