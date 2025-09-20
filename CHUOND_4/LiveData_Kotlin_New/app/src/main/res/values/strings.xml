@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LearnViewModel</string>
+    <string name="action_add_staff">Add Staff</string>
+    <string name="name_hint">Staff name</string>
+    <string name="birth_date_hint">Birth date</string>
+    <string name="salary_hint">Salary amount</string>
+    <string name="staff_id_hint">Staff id</string>
+    <string name="staff_list_title">Staff list:</string>
+    <string name="text_no_result">NO RESULT</string>
+</resources>
