@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SaveInstanceState</string>
+    <string name="label_full_name">Họ và tên: %s</string>
+    <string name="label_gpa">Điểm gpa: %1.2f</string>
+</resources>
