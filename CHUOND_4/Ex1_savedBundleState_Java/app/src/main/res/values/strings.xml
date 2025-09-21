@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exercises_405</string>
+    <!-- TODO 7 done: create string label show in text views represent score, power, level, player name -->
+    <string name="label_score">Score: %d</string>
+    <string name="label_power">Power: %d</string>
+    <string name="label_level">Level: %d</string>
+    <string name="label_player">Player Name: %s</string>
+</resources>
