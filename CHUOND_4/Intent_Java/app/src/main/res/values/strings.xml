@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intent_Java</string>
+    <string name="action_start_activity">START ACTIVITY</string>
+    <string name="label_welcome">WELCOME</string>
+</resources>
