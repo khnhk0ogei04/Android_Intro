@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActivityResult</string>
+    <string name="text_btn_start_new_activity">Start New Activity</string>
+    <string name="text_submit">Submit</string>
+    <string name="text_lable">Enter your Infomation</string>
+    <string name="hint_full_name">Your name. Example: John 123</string>
+    <string name="hint_salary">Your salary: Example: 15600000.25</string>
+</resources>

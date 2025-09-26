@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ex1</string>
+    <string name="text_result">Result</string>
+    <string name="action_start_activity">Start Activity</string>
+    <string name="action_submit">SUBMIT</string>
+    <string name="label_info_screen">Info Screen</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_gpa">GPA</string>
+</resources>
