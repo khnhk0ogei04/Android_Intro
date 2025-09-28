@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LearnIntent</string>
+    <string name="action_start_activity">Start Activity</string>
+    <string name="label_welcome">Sample Activity</string>
+    <string name="label_main">First Activity</string>
+    <string name="hint_enter_your_age">Enter your age</string>
+    <string name="hint_enter_your_full_name">Enter your full name</string>
+    <string name="action_submit">Submit</string>
+    <string name="text_result">%s, %d</string>
+</resources>

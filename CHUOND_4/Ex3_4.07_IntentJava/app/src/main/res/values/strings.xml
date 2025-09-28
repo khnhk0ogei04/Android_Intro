@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="btn_text">START NEW ACTIVITY</string>
+    <string name="txt_message">This Is New Activity</string>
+    <string name="label_name">Full Name:</string>
+    <string name="label_salary">Salary:</string>
+    <string name="label_members_names">Family Members:</string>
+    <string name="label_info">Information:</string>
+</resources>

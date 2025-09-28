@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+    <!--
+        done 1: design layout for activity info that include:
+            a text view for activity title,
+            a text view for full name,
+            a text view for salary,
+            a text view for the names of your family members,
+            an edit text for full name,
+            an edit text for salary,
+            an edit text for the names of your family members
+    -->
+    <!-- done 2: bind text in strings.xml resource to views created above. -->
+    <EditText
+        android:id="@+id/edit_family_members"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_family_members"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/text_family_members"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <TextView
+        android:id="@+id/text_label_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/edit_name"
+        android:text="@string/label_name"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_family_members"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_family_members"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <TextView
+        android:id="@+id/text_family_members"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:labelFor="@id/edit_family_members"
+        android:text="@string/label_members_names"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_label_name"
+        app:layout_constraintEnd_toEndOf="@+id/edit_salary"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit_salary"
+        app:layout_constraintTop_toTopOf="@+id/text_label_name"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <EditText
+        android:id="@+id/edit_salary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_label_salary"
+        app:layout_constraintEnd_toEndOf="@+id/edit_family_members"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit_family_members"
+        app:layout_constraintTop_toTopOf="@+id/text_label_salary"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <TextView
+        android:id="@+id/text_label_salary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/edit_salary"
+        android:text="@string/label_salary"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_family_members"
+        app:layout_constraintEnd_toEndOf="@+id/text_family_members"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_family_members"
+        app:layout_constraintTop_toBottomOf="@+id/text_label_name"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_info"
+        android:textColor="@color/purple_700"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58" />
+</androidx.constraintlayout.widget.ConstraintLayout>

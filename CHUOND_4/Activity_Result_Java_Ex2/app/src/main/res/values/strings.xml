@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ex2</string>
+    <string name="action_submit">Submit</string>
+    <string name="hint_full_name">Your name: Example: Khanh Nguyen</string>
+    <string name="hint_gpa">Your gpa: Example: 3.6x</string>
+    <string name="action_start_new">Start New Activity</string>
+    <string name="label_info_screen">Enter your information</string>
+    <string name="text_result">Full Name: %s\nGPA: %1.2f</string>
+    <string name="error_empty_gpa">Gpa cannot be empty</string>
+    <string name="error_empty_full_name">Full name cannot be empty</string>
+</resources>
