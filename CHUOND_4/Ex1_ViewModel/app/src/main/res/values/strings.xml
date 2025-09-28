@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ex1</string>
+    <string name="text_btn_add_staff">Add New Staff</string>
+    <string name="hint_staff_id">Staff Id</string>
+    <string name="hint_birth_date">Birth date</string>
+    <string name="hint_salary">Salary</string>
+    <string name="hint_full_name">Staff full name</string>
+</resources>
