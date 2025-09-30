@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ViewModel_Ex4</string>
+    <string name="label_no_info">Chưa có thông tin sinh viên</string>
+    <string name="action_add">Thêm mới</string>
+    <string name="label_update_student_info">Thêm mới thông tin sinh viên</string>
+    <string name="hint_full_name">Họ và tên</string>
+    <string name="hint_gpa">Điểm TB tích lũy hệ 4</string>
+    <string name="hint_your_birth_date">Ngày tháng năm sinh</string>
+    <string name="hint_student_id">Mã sinh viên</string>
+    <string name="action_save">Lưu lại</string>
+    <string name="error_message">Vui lòng nhập đầy đủ thông tin để tiếp tục</string>
+    <string name="error_message_duplicate">Sinh viên này đã tồn tại trong danh sách!</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">listview</string>
+    <string-array name="programming_languages">
+        <item>C++</item>
+        <item>C#</item>
+        <item>Java</item>
+        <item>PHP</item>
+        <item>Python</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>JavaScript</item>
+        <item>C</item>
+        <item>Pascal</item>
+        <item>Go</item>
+        <item>Ruby</item>
+        <item>Perl</item>
+        <item>Rust</item>
+        <item>Scala</item>
+        <item>Dart</item>
+        <item>MATLAB</item>
+    </string-array>
+</resources>
