@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">recycler_view</string>
+    <string name="title_student_id">20225019</string>
+    <string name="title_full_name">Khanh Nguyen Duy</string>
+    <string name="title_gpa">3.82</string>
+    <string name="desc_image_avatar">Avatar image</string>
+    <string name="message_info">Full Name: %s</string>
+</resources>
