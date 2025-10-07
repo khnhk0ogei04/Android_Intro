@@ -18,6 +18,6 @@
         android:id="@+id/btnSwitchFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Switch to Second Fragment"
+        android:text="Next Fragment"
         android:layout_margin="16dp" />
 </LinearLayout>
