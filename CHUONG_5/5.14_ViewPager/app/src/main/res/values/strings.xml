@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">viewpager</string>
+    <string name="text_tab_name">Tháng</string>
+    <string-array name="array_month">
+        <item>31</item>
+        <item>28</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+</resources>
