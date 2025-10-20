@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_button_press">Button Was Pressed</string>
+    <string name="text_no_action">Button Not Pressed</string>
+    <string name="text_btn_count">Press Me</string>
+    <string name="text_label">Click this button and view result:</string>
+</resources>

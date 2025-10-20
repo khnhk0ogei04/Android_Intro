@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">custom_dialog</string>
+    <string name="title_confirm">Are you want to delete this?</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">CANCEL</string>
+    <string name="text_btn_show_confirm">Show Confirm Dialog</string>
+</resources>
