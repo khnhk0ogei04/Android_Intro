@@ -76,8 +76,7 @@ public class SongListAdapter extends RecyclerView.Adapter<SongListAdapter.ViewHo
             binding.textTitle.setText(song.getTitle());
             Glide.with(context)
                     .load(song.getImage())
-                    .error(R.drawable.ic_album)
-                    .into(binding.imageAlbum);
+                    .error(R.drawable.ic_album).into(binding.imageAlbum);
         }
 
         @Override
