@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DataBinding</string>
+    <string name="text_fullname">Họ và tên: %s</string>
+    <string name="text_address">Địa chỉ: %s</string>
+    <string name="text_btn_show_info">Hiện thông tin</string>
+    <string name="text_id">Mã sinh viên: %s</string>
+</resources>
